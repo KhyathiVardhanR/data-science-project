@@ -1,6 +1,7 @@
-# data-science-project
+# Measuring the Economic Impact of International Sanctions on Civilian Well-Being
 
-Heilmeier Catechism – Project: Measuring the Economic Impact of International Sanctions on Civilian Well-Being
+Heilmeier Catechism – Project: International sanctions are commonly used as a foreign policy tool to influence the behavior of governments. While their political effectiveness is often discussed, the economic impact of sanctions on civilian populations is less clearly understood. This project aims to examine how international sanctions are associated with changes in key economic conditions that directly affect civilians.
+
 1. What are you trying to do?
 We are trying to understand whether international sanctions are linked to economic problems faced by everyday people in affected countries.
 
