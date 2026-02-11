@@ -8,7 +8,7 @@ We are trying to understand how the economic impact of international sanctions o
 2. How is it done today, and what are the limits of current practice?
 Sanctions are usually evaluated based on political outcomes, while civilian economic impacts are studied separately. This makes it difficult to directly connect sanction events with changes in civilian economic conditions.
 
-## Milestone 1
+## Milestone 1 
 This repository contains data acquisition and exploratory analysis
 of World Bank economic indicators (inflation, unemployment, GDP growth)
 for analyzing the impact of international sanctions on civilian well-being.
