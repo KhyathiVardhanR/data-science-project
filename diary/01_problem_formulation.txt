@@ -4,7 +4,7 @@ Project Title:
 Measuring the Economic Impact of International Sanctions on Civilian Well-Being
 
 Problem Statement:
-International sanctions are commonly used as a foreign policy tool to influence the behavior of governments. While their political effectiveness is often discussed, the economic impact of sanctions on civilian populations is less clearly understood. This project aims to examine how international sanctions are associated with changes in key economic conditions that directly affect civilians.
+How are international sanctions associated with changes in key civilian economic indicators such as inflation, unemployment, and GDP growth?
 
 Central Research Question:
 How are international sanctions associated with long-term changes in key civilian economic indicators such as inflation, unemployment, and GDP growth over time?
@@ -20,3 +20,4 @@ The analysis will focus on annual data over a multi-year period, approximately f
 
 Why This Problem Matters:
 Sanctions are intended to apply pressure on governments, but their economic effects may be experienced most directly by civilians. Understanding how sanctions are associated with inflation, unemployment, and economic growth can help provide insight into their broader social consequences and inform future policy discussions.
+
