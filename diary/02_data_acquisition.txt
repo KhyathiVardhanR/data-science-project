@@ -1,20 +1,95 @@
 Data Acquisition – Milestone 1
 
-Overview:
-This project uses two primary datasets to study the relationship between international sanctions and civilian economic well-being. The datasets were chosen to capture both sanction-related activity and measurable economic outcomes affecting civilians. 
 
-Data Source 1: GDELT Project
-The Global Database of Events, Language, and Tone (GDELT) provides event-level data extracted from news sources around the world. This dataset is used to identify and quantify sanction-related events reported in international media. Sanction activity will be measured by filtering events related to economic sanctions and aggregating them by country and year.
+Overview
+
+This project uses a multidimensional dataset to examine the relationship between international sanctions and civilian economic and social well-being. Rather than relying on a single macroeconomic database, the analysis combines sanction event data, macroeconomic indicators, trade flows, and household-level social indicators. This approach allows for a more comprehensive and data-driven assessment of how sanctions affect civilian populations.
+
+
+Data Source 1: Sanctions Data
+
+Sanctions are identified and coded using multiple sources to ensure accuracy and completeness.
+
+Primary Source:
+- Global Sanctions Data Base (GSDB), which provides detailed information on sanction episodes, including start and end dates, type (trade, financial, targeted), and objectives.
+
+Supplementary Sources:
+- United Nations Security Council sanction records
+- U.S. Treasury (OFAC) sanctions lists
+- European Union sanctions database
+
+Sanction Severity Index:
+Using these sources, a sanction severity measure will be constructed based on:
+- Number of sanctioning actors
+- Sectors targeted (oil, banking, trade)
+- Presence of financial restrictions
+- Scope of trade embargo
+- Humanitarian exemptions
 
 Relevance:
-GDELT allows sanction activity to be tracked over time and across countries, providing a proxy for the intensity and frequency of international sanctions affecting a nation.
+This dataset allows sanctions to be measured not only as a binary variable (sanctioned or not), but also by intensity and scope over time.
 
-Data Source 2: World Bank and IMF Economic Indicators
-Economic data is obtained from publicly available World Bank and International Monetary Fund (IMF) datasets. The indicators used in this project include inflation rate, unemployment rate, and GDP growth, which are commonly used measures of civilian economic conditions.
+
+Data Source 2: Macroeconomic Indicators
+
+Macroeconomic data is obtained from publicly available global databases:
+
+- World Bank World Development Indicators (WDI)
+- International Monetary Fund (IMF) databases
+- ILOSTAT for labor statistics
+
+Key variables include:
+- GDP growth
+- Inflation rate
+- Unemployment rate
 
 Relevance:
-These indicators reflect changes in prices, employment opportunities, and overall economic growth, all of which directly impact civilian well-being.
+These indicators capture overall economic conditions and allow comparison of economic performance before and after sanction episodes.
 
-Data Accessibility and Reproducibility:
-All datasets used in this project are publicly available and free to access. Data can be downloaded directly from the respective data portals or retrieved programmatically using scripts included in the repository, ensuring that the analysis is reproducible.
 
+Data Source 3: Trade and Sectoral Data
+
+To understand transmission channels of sanctions, trade data will be collected from:
+
+- UN Comtrade database
+
+Key variables include:
+- Imports of food
+- Imports of medicine
+- Fuel imports
+- Oil exports
+
+Relevance:
+Sanctions often directly affect trade flows. Tracking changes in essential goods imports helps identify how sanctions translate into civilian hardship.
+
+
+Data Source 4: Household and Social Indicators
+
+To move beyond macro-level analysis, the project includes social and household-level indicators from:
+
+- Demographic and Health Surveys (DHS)
+- UNICEF Multiple Indicator Cluster Surveys (MICS)
+- World Bank poverty and inequality data
+
+Key variables include:
+- Poverty rate
+- Income inequality (Gini index)
+- Under-5 child mortality
+- Nutrition indicators
+- School enrollment (where available)
+
+Relevance:
+These indicators provide direct measures of civilian well-being and allow analysis of how economic shocks affect vulnerable populations.
+
+
+Data Accessibility and Reproducibility
+
+All datasets used in this project are publicly available and free to access. Data can be downloaded directly from official portals or retrieved programmatically using scripts included in the repository.
+
+The repository documents:
+- Data sources and download links
+- Variable definitions
+- Data cleaning procedures
+- Aggregation methods
+
+This ensures full transparency and reproducibility of the analysis.
