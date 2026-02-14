@@ -1,20 +1,63 @@
 Data Exploration – Milestone 1
 
-Overview:
-Initial data exploration was conducted to better understand the structure, quality, and behavior of the sanction-related and economic indicator datasets. This step focused on descriptive statistics, basic visualizations, and identifying potential data issues that may require attention in later stages of the project.
 
-Descriptive Statistics:
-Summary statistics were generated for sanction event counts, inflation rates, unemployment rates, and GDP growth. These statistics provided insight into the range, central tendency, and variability of each variable across countries and years.
+Overview
 
-Visual Exploration:
-Line plots were created to visualize trends in economic indicators alongside sanction activity over time. These visualizations helped identify periods of increased sanction activity and observe how inflation, unemployment, and GDP growth behaved during those periods.
+Initial exploratory data analysis was conducted to understand the structure, consistency, and behavior of the multidimensional panel dataset. This dataset includes sanctions intensity measures, macroeconomic indicators, trade flows, and household-level social indicators. The objective of this stage was to identify patterns, detect data limitations, and evaluate the feasibility of later econometric modeling.
 
-Missing Values and Data Quality:
-Some missing values were observed in the economic indicator data, particularly for unemployment rates in earlier years for certain countries. Sanction-related event data also varies significantly by country and year, reflecting differences in media coverage and reporting frequency.
 
-Initial Observations:
-Preliminary exploration suggests that periods of increased sanction activity are often accompanied by noticeable changes in one or more economic indicators. However, patterns are not uniform across all countries, indicating that the economic effects of sanctions may vary by context.
+Descriptive Statistics
 
-Notes for Future Work:
-Further analysis will be needed to address missing values, explore lagged effects, and assess whether observed relationships remain consistent across different countries and time periods.
+Summary statistics were generated for the following variables:
 
+- Sanction intensity measures (event counts, severity indicators)
+- GDP growth, inflation, unemployment
+- Trade flows (food imports, medicine imports, oil exports)
+- Social indicators (poverty rate, inequality, child mortality where available)
+
+These statistics provided insight into distribution, central tendencies, outliers, and cross-country variation across years. Significant variation was observed in sanction intensity and trade volumes across countries and time periods.
+
+
+Visual Exploration
+
+Time-series plots were created to examine:
+
+- Economic indicators before and after sanction periods
+- Trade shocks in essential goods during high sanction years
+- Changes in social indicators following major sanction episodes
+
+Preliminary visual patterns suggest that sanction intensification often coincides with trade contraction and inflation spikes in certain cases. However, effects are heterogeneous across countries, suggesting context-specific transmission mechanisms.
+
+
+Missing Values and Data Quality Assessment
+
+Several data challenges were identified:
+
+- Missing unemployment data for earlier years in certain countries
+- Incomplete social indicators for some low-income countries
+- High variability in sanction event counts due to differences in media reporting intensity
+- Potential structural breaks during conflict years
+
+Data cleaning strategies and imputation methods will be considered in future stages to address these gaps while maintaining analytical integrity.
+
+
+Preliminary Observations
+
+Initial exploration indicates that sanction periods are frequently associated with:
+
+- Increased inflation
+- Declines in trade flows of key sectors
+- Greater volatility in economic indicators
+
+However, the magnitude and persistence of effects vary across countries. This reinforces the need for structured causal methods such as Difference-in-Differences and event-study designs in subsequent analysis.
+
+
+Next Steps
+
+Future analysis will:
+
+- Address missing values and standardize panel structure
+- Explore lagged and dynamic effects of sanctions
+- Conduct subgroup analysis (income level, region)
+- Implement econometric models to test causal relationships
+- Evaluate robustness using alternative sanction severity measures
